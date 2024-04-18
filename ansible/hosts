@@ -1,0 +1,11 @@
+[linux]
+linux-n015173771.canadacentral.cloudapp.azure.com
+linux-n015173772.canadacentral.cloudapp.azure.com
+linux-n015173773.canadacentral.cloudapp.azure.com
+
+[os:children]
+linux
+
+[linux:vars]
+ansible_user=karthik
+ansible_connection=ssh
